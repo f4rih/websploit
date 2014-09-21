@@ -29,3 +29,4 @@ Supported Attack :
 #	[+]FakeUpdate - Fake update attack 
 #   [+]Wifi Jammer - Wifi Jammer Attack
 #   [+]Wifi Dos - Wifi Dos RQ Attack
+#   [+]Wifi Mass De-authentication attack

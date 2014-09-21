@@ -10,9 +10,8 @@ from core import wcolors
 
 def update_websploit():
 	print wcolors.color.GREEN + "[*]Updating Websploit framework, Please Wait ..." + wcolors.color.ENDC
-	os.chdir("/usr/share/")
 	try:
-		subprocess.Popen("git clone https://github.com/websploit/websploit.git", stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True).wait()
+		subprocess.Popen("cd /tmp;git clone https://github.com/websploit/websploit.git;cp -R websploit/ /usr/share", stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True).wait()
 	except Exception, e:
 		print wcolors.color.RED + "[!] Update Failed."+ wcolors.color.ENDC
 		pass
