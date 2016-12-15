@@ -29,6 +29,7 @@ def wifi_jammer():
             wifi_jammer()
         elif com[0:9] =='set essid':
             options[2] = com[10:]
+            options[2].replace(" ","\ ")
             print "ESSID => ", options[2]
             wifi_jammer()
         elif com[0:7] =='set mon':
