@@ -1,10 +1,5 @@
 WebSploit Framework
 
-Project in SourceForge : http://sourceforge.net/projects/websploit
-
-Author : 0x0ptim0us (Fardin Allahverdinazhand)
-Email & Report Bug : 0x0ptim0us@Gmail.Com
-Blog : http://0x0ptim0us.blogspot.com
 
 If your system doesn't have enough copies of the full text of the GNU
 General Public License already, we have provided another one in the
