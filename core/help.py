@@ -17,7 +17,7 @@ def help():
     print "use \t\t\tSelect Module For Use"
     print "os \t\t\tRun Linux Commands(ex : os ifconfig)"
     print "back\t\t\tExit Current Module"
-    print "show modules\t\tShow Modules of Current Database"
+    print "show modules(sm)\tShow Modules of Current Database"
     print "show options\t\tShow Current Options Of Selected Module"
     print "upgrade\t\t\tGet New Version"
     print "update\t\t\tUpdate Websploit Framework "
