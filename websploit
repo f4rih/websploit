@@ -129,7 +129,7 @@ def main():
             elif terminal[4:27] =='bluetooth/bluetooth_pod':
                 bluetooth_pod.bluetooth_pod()
                 main()
-        elif terminal[0:12] == 'show modules':
+        elif terminal[0:12] == 'show modules' or terminal[0:12] == 'sm':
             modules_database.modules_database()
             main()
         elif terminal[0:4] =='help':
