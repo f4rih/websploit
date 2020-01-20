@@ -1,0 +1,5 @@
+scapy
+wifi
+faker
+ezcolor
+requests
