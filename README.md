@@ -27,8 +27,7 @@ Menu
 -----
 
 <p align="center">
-  <img width="893" height="533" src="https://github.com/websploit/images/raw/master/websploit-menu.png
-">
+  <img width="893" height="533" src="https://github.com/websploit/images/raw/master/websploit-menu.png">
 </p>
 
 Select module :
