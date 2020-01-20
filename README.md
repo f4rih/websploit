@@ -6,7 +6,7 @@
 </p>
 
 
-Websploit is an high level MITM framework
+Websploit is a high level MITM framework
 
 
 Installation
