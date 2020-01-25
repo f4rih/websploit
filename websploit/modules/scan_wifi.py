@@ -1,5 +1,5 @@
 from scapy.all import *
-from core import base
+from websploit.core import base
 from wifi import Cell
 
 conf.verb = 0

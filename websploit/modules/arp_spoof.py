@@ -1,7 +1,7 @@
 from scapy.all import *
-from core.utils import get_mac, enable_ip_forward
+from websploit.core.utils import get_mac, enable_ip_forward
 from time import sleep
-from core import base
+from websploit.core import base
 
 conf.verb = 0
 

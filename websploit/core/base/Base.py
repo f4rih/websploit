@@ -1,7 +1,7 @@
 import cmd
 import sys
-from modules import all_modules, module_list
-from core.utils import CPrint
+from websploit.modules import all_modules, module_list
+from websploit.core.utils import CPrint
 
 completions = [
     'target',

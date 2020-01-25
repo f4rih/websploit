@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 # check dependencies before start
-from core.utils import check_dependencies
+from .core.utils import check_dependencies
 check_dependencies()
 
 import cmd
 import os
-from modules import *
-from modules import module_list, all_modules
-from core.utils import logo, CPrint, about, update
+from .modules import *
+from .modules import module_list, all_modules
+from .core.utils import logo, CPrint, about, update
 
 
 completions = module_list()
@@ -69,8 +69,11 @@ class Main(cmd.Cmd):
         update(where="update_command")
 
 
-if __name__ == '__main__':
+def start_wsf():
     try:
         Main().cmdloop()
     except KeyboardInterrupt:
         print("\nBye!")
+
+if __name__ == '__main__':
+    start_wsf()

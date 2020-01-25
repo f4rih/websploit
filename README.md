@@ -17,8 +17,11 @@ Manual install via git :
 ```bash
 $ git clone https://github.com/websploit/websploit.git
 $ cd websploit
-$ python -m pip install requirements.txt
-$ python websploit.py
+$ python setup.py install
+```
+Execute via command line :
+```bash
+$ websploit
 ```
 
 install via `apt` coming soon ...

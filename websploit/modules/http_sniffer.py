@@ -1,7 +1,7 @@
 import cmd
 from scapy.all import *
 from scapy.layers.http import HTTPRequest
-from core import base
+from websploit.core import base
 
 conf.verb = 0
 
