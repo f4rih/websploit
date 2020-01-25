@@ -12,7 +12,6 @@ def about():
             Codename : Reborn
             Project Github : https://github.com/websploit/websploit
             Other Projects : https://github.com/0x0ptim0us
-            Thanks to : Pezhman Zandi
             
     {e_color}"""
     print(about)
