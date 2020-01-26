@@ -1,7 +1,7 @@
 from scapy.all import *
 from websploit.core import base
 from threading import Thread
-from faker import Faker
+from websploit.core.utils import get_fake_mac, get_fake_name
 
 conf.verb = 0
 
@@ -16,12 +16,11 @@ class Main(base.Module):
 
     def do_execute(self, line):
         """Execute current module"""
-        faker = Faker()
         process_list = []
         try:
             for _ in range(int(self.parameters['count'])):
-                name = faker.name()
-                mac = faker.mac_address()
+                name = get_fake_name()
+                mac = get_fake_mac()
                 p = Thread(target=SpawnAP, args=(name, mac, self.parameters['iface']))
                 process_list.append(p)
                 p.start()

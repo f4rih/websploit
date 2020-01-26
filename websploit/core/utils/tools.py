@@ -1,4 +1,5 @@
 from scapy.all import *
+import random
 
 
 def get_mac(ip):
@@ -23,3 +24,21 @@ def enable_ip_forward():
             return True
     except Exception:
         return False
+
+def get_fake_mac():
+    file_path = os.path.join(os.path.dirname(__file__), 'fake_mac')
+    with open(file_path) as file:
+        mac_list = file.readlines()
+        random_mac = random.choice(mac_list)
+        random_mac = random_mac.strip("\n")
+        random_mac = random_mac.strip()
+        return random_mac
+
+def get_fake_name():
+    file_path = os.path.join(os.path.dirname(__file__), 'fake_names')
+    with open(file_path) as file:
+        name_list = file.readlines()
+        random_name = random.choice(name_list)
+        random_name = random_name.strip("\n")
+        random_name = random_name.strip()
+        return random_name

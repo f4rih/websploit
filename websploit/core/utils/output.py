@@ -1,4 +1,4 @@
-from ezcolor import Style
+from websploit.ezcolor import Style
 import platform
 
 
@@ -32,6 +32,15 @@ class Output:
             elif status == "info":
                 cp = self._style.add.foreground('cyan').prefix('info').bold.apply()
                 cp(text)
+            elif status == "green":
+                cp = self._style.add.foreground('green').apply()
+                cp(text)
+            elif status == "red":
+                cp = self._style.add.foreground('red').apply()
+                cp(text)
+            elif status == "yellow":
+                cp = self._style.add.foreground('yellow').apply()
+                cp(text)
         else:
             print(f"{symbols[status]} {text}")
 
@@ -51,4 +60,13 @@ class CPrint(Output):
 
     def info(self, text):
         self._output(text=text, status="info")
+    
+    def green(self, text):
+        self._output(text=text, status="green")
+
+    def red(self, text):
+        self._output(text=text, status="red")
+
+    def yellow(self, text):
+        self._output(text=text, status="yellow")
 

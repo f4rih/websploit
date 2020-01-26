@@ -20,10 +20,9 @@ class Main(base.Module):
         # stack them
         packet = ether/arp
         result = srp(packet, timeout=5)[0]
-        print(f"{'IP':16} {'MAC':18}")
-        print(f"{'_'*16} {'_'*21}")
+        self.cp.green(f"{'IP':<16}\t {'MAC':^15}")
         for _, received in result:
-            print(f"{received.psrc:20} {received.hwsrc}")
+            self.cp.yellow(f"{received.psrc:<20} {received.hwsrc:^18}")
 
     def complete_set(self, text, line, begidx, endidx):
         mline = line.partition(' ')[2]

@@ -2,7 +2,7 @@
 import codecs
 from setuptools import setup, find_packages
 
-WEBSPLOIT_VERSION = "4.0.2"
+WEBSPLOIT_VERSION = "4.0.3"
 WEBSPLOIT_DOWNLOAD = ('https://github.com/websploit/websploit/tarball/' + WEBSPLOIT_VERSION)
 
 
@@ -22,6 +22,7 @@ setup(
 	name='websploit',
 	packages=[
 		'websploit',
+		'websploit.ezcolor',
 		'websploit.modules',
 		'websploit.core',
 		'websploit.core.base',
