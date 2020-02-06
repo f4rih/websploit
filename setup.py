@@ -2,7 +2,7 @@
 import codecs
 from setuptools import setup, find_packages
 
-WEBSPLOIT_VERSION = "4.0.3"
+WEBSPLOIT_VERSION = "4.0.4"
 WEBSPLOIT_DOWNLOAD = ('https://github.com/websploit/websploit/tarball/' + WEBSPLOIT_VERSION)
 
 
@@ -27,6 +27,11 @@ setup(
 		'websploit.core',
 		'websploit.core.base',
 		'websploit.core.utils'],
+	package_data={
+          'websploit.core': [
+              'utils/*',
+          ],
+      },
 
 	version=WEBSPLOIT_VERSION,
 	description='Websploit is a high level MITM framework',
