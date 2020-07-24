@@ -24,7 +24,10 @@ Execute via command line :
 $ websploit
 ```
 
-install via `apt` coming soon ...
+install via apt:
+```bash
+$ apt-get install websploit
+```
 
 Menu
 -----
