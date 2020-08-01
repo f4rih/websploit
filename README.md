@@ -67,4 +67,5 @@ Meta
 Fardin Allahverdinazhand -  [\@0x0ptim0us](https://twitter.com/0x0ptim0us) - <0x0ptim0us@gmail.com>  Distributed under the MIT license. see  [LICENSE.txt](https://github.com/websploit/websploit/blob/master/LICENSE.txt)
 for more information.
 
+Thanks to [\@zapezhman](https://github.com/zapezhman)
 <https://github.com/websploit/websploit>
