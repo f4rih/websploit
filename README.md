@@ -15,7 +15,7 @@ Installation
 Manual install via git :
 
 ```bash
-$ git clone https://github.com/websploit/websploit.git
+$ git clone https://github.com/f4rih/websploit.git
 $ cd websploit
 $ python setup.py install
 ```
@@ -64,10 +64,8 @@ wsf > arp_spoof > execute
 Meta
 ----
 
-Fardin Allahverdinazhand -  [\@0x0ptim0us](https://twitter.com/0x0ptim0us) - <0x0ptim0us@gmail.com>  Distributed under the MIT license. see  [LICENSE.txt](https://github.com/websploit/websploit/blob/master/LICENSE.txt)
+Fardin Allahverdinazhand -  [\@f4rih](https://twitter.com/f4rih) - <f4rih@pm.me>  Distributed under the MIT license. see  [LICENSE.txt](https://github.com/f4rih/websploit/blob/master/LICENSE.txt)
 for more information.
 
-Thanks to [\@zapezhman](https://github.com/zapezhman)
 
-
-<https://github.com/websploit/websploit>
+<https://github.com/f4rih/websploit>
