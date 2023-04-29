@@ -64,7 +64,7 @@ wsf > arp_spoof > execute
 Meta
 ----
 
-Fardin Allahverdinazhand -  [\@f4rih](https://twitter.com/f4rih) - <f4rih@pm.me>  Distributed under the MIT license. see  [LICENSE.txt](https://github.com/f4rih/websploit/blob/master/LICENSE.txt)
+Fardin Allahverdinazhand -  [\@f4rih](https://twitter.com/f4rih) - <f4rih@pm.me> && pezhman Zandi - [\@begininvoke](https://twitter.com/begininvoke) Distributed under the MIT license. see  [LICENSE.txt](https://github.com/f4rih/websploit/blob/master/LICENSE.txt)
 for more information.
 
 
