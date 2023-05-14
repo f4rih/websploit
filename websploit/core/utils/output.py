@@ -16,7 +16,11 @@ class Output:
             "success": "[+]",
             "warning": "[!]",
             "error": "[-]",
-            "info": "[>]"
+            "info": "[>]",
+            "yellow": "",
+            "green": "",
+            "red": "",
+            "cyan": ""
         }
 
         if self._color_status:
