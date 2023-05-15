@@ -45,7 +45,7 @@ setup(
         },
 
 	license='MIT',
-	author='Fardin Allahverdinazhand',
+	author='Fardin Allahverdinazhand && Pezhman Zandi',
 	author_email='0x0ptim0us@gmail.com',
 	url='https://github.com/websploit/websploit',
 	download_url=WEBSPLOIT_DOWNLOAD,
